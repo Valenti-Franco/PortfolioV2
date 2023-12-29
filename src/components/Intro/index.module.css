@@ -1,0 +1,133 @@
+.container{
+    width: 1200px;
+    height: 720px ;
+    display: flex;
+    align-Items: center;
+    justify-Content: center;
+	background: #252525d0;
+
+}
+	.continerButtons{
+		width: 100%;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+	}
+.conatainer2{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+
+  
+
+}
+
+
+.conatainer3{
+   width: 40%;
+   height: 100% ;
+    display: flex;
+    align-Items: center;
+    justify-Content: center;
+	background: #252525d0;
+
+}
+.conatainer3 img{
+	width: 100%;
+	height: 100% ;
+
+	object-fit: cover;
+}
+
+
+.h3Style{
+	color: #FFF;
+	font-family: Poppins;
+	font-size: 26px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	margin: 40px 20px;
+	
+}
+.containerH1{ 
+	height: 240px;
+    position: relative;
+}
+.h1Style{
+	color: #0FF;
+	margin: 70px 65px;
+	font-family: Poppins;
+	font-size: 86px;
+	letter-spacing:16px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 75px; 
+	
+}
+.h2Style{
+	color: #FFF;
+	font-family: Poppins;
+	font-size: 36px;
+	font-style: normal;
+	font-weight: 900;
+	line-height: normal;
+	margin: 40px 20px;
+
+	
+}
+.continerButtons{
+	display: flex;
+	gap: 10px;
+	margin: 10px;
+}
+.h1Style2{
+	position: absolute;
+	top: 0;
+	color: rgb(235, 235, 235);
+	margin: 20px 100px;
+	font-family: Poppins;
+	font-size: 96px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 110px; 
+	
+}
+
+
+
+@media screen and (max-width: 1024px) {
+	.container{
+		flex-direction: column-reverse;
+	}
+	
+	.containerH1{
+		height: auto;
+		position: relative;
+		width: 100%;
+	}
+	.conatainer3{
+		border-radius: 100%;
+		contain: content;
+		height: 200px;
+		width: 200px;
+	}
+	.conatainer2{
+		height: 60%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+	}
+	.h3Style{
+		margin: 0;
+	}
+	.h2Style{
+		margin: 0;
+		text-wrap: pretty;
+		text-align: center;
+	}
+	
+}
