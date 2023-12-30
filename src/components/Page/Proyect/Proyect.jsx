@@ -3,23 +3,23 @@ import style from "./index.module.css";
 // import nfPage from "../../../assets/737shots_so.png";
 
 // import ccPage from "../../../assets/556shots_so.png";
-import ccPhone from "../../../assets/180shots_so.png";
+import ccPhone from "src/assets/180shots_so.png";
 
 // import FVAPage from "../../../assets/286shots_so.png";
-import FVAPhone from "../../../assets/595shots_so.png";
+import FVAPhone from "src/assets/595shots_so.png";
 
-import nfPhone from "../../../assets/175shots_so.png";
-import nflogo from "../../../assets/nflogo.png";
-import cclogo from "../../../assets/cclogo.png";
-import FVAlogo from "../../../assets/fvlogo.png";
-import Logo from "../../../assets/logo.png";
-import Logo3d from "../../../assets/fv3d.png";
-import cancha from "../../../assets/3dCnacha.png";
+import nfPhone from "src/assets/175shots_so.png";
+import nflogo from "src/assets/nflogo.png";
+import cclogo from "src/assets/cclogo.png";
+import FVAlogo from "src/assets/fvlogo.png";
+import Logo from "src/assets/logo.png";
+import Logo3d from "src/assets/fv3d.png";
+import cancha from "src/assets/3dCnacha.png";
 
-import LogoArg from "../../../assets/logoArg.png";
-import arg from "../../../assets/3dArg.png";
+import LogoArg from "src/assets/logoArg.png";
+import arg from "src/assets/3dArg.png";
 
-import FVecommerce from "../../../assets/ecommerce.png";
+import FVecommerce from "src/assets/ecommerce.png";
 
 import Card2 from "../../Card/Card2";
 import { motion } from "framer-motion";
