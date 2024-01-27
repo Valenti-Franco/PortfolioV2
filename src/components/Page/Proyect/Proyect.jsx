@@ -3,23 +3,26 @@ import style from "./index.module.css";
 // import nfPage from "../../../assets/737shots_so.png";
 
 // import ccPage from "../../../assets/556shots_so.png";
-import ccPhone from "src/assets/180shots_so.png";
+import ccPhone from "../../../assets/img/180shots_so.webp";
 
 // import FVAPage from "../../../assets/286shots_so.png";
-import FVAPhone from "src/assets/595shots_so.png";
+import FVAPhone from "../../../assets/img/595shots_so.webp";
 
-import nfPhone from "src/assets/175shots_so.png";
-import nflogo from "src/assets/nflogo.png";
-import cclogo from "src/assets/cclogo.png";
-import FVAlogo from "src/assets/fvlogo.png";
-import Logo from "src/assets/logo.png";
-import Logo3d from "src/assets/fv3d.png";
-import cancha from "src/assets/3dCnacha.png";
+import nfPhone from "../../../assets/img/175shots_so.webp";
+import nflogo from "../../../assets/img/nflogo.webp";
+import logof5 from "../../../assets/img/logof5.webp";
+import imagef5 from "../../../assets/img/futbol5Web.webp";
 
-import LogoArg from "src/assets/logoArg.png";
-import arg from "src/assets/3dArg.png";
+import cclogo from "../../../assets/img/cclogo.webp";
+import FVAlogo from "../../../assets/img/fvlogo.webp";
+import Logo from "../../../assets/img/logo.webp";
+import Logo3d from "../../../assets/img/fv3d.webp";
+import cancha from "../../../assets/img/3dCnacha.webp";
 
-import FVecommerce from "src/assets/ecommerce.png";
+import LogoArg from "../../../assets/img/logoArg.webp";
+import arg from "../../../assets/img/3dArg.webp";
+
+import FVecommerce from "../../../assets/img/ecommerce.webp";
 
 import Card2 from "../../Card/Card2";
 import { motion } from "framer-motion";
@@ -327,6 +330,107 @@ const Proyect = () => {
     </svg>
   );
 
+  const socket = (
+    <svg
+      viewBox="0 -31.5 256 256"
+      version="1.1"
+      xmlns="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      preserveAspectRatio="xMidYMid"
+      fill="#fff"
+    >
+      <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
+      <g
+        id="SVGRepo_tracerCarrier"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      ></g>
+      <g id="SVGRepo_iconCarrier">
+        {" "}
+        <g>
+          {" "}
+          <path
+            d="M192.440223,144.644612 L224.220111,144.644612 L224.220111,68.3393384 L188.415329,32.5345562 L165.943007,55.0068785 L192.440223,81.5040943 L192.440223,144.644612 L192.440223,144.644612 Z M224.303963,160.576482 L178.017688,160.576482 L113.451687,160.576482 L86.954471,134.079266 L98.1906322,122.843105 L120.075991,144.728464 L165.104487,144.728464 L120.746806,100.286931 L132.06682,88.9669178 L176.4245,133.324599 L176.4245,88.2961022 L154.622994,66.4945955 L165.775303,55.3422863 L110.684573,0 L56.3485097,0 L56.3485097,0 L0,0 L31.6960367,31.6960367 L31.6960367,31.7798886 L31.8637406,31.7798886 L97.4359646,31.7798886 L120.662954,55.0068785 L86.7029152,88.9669178 L63.4759253,65.7399279 L63.4759253,47.7117589 L31.6960367,47.7117589 L31.6960367,78.9046839 L86.7029152,133.911562 L64.3144448,156.300033 L100.119227,192.104815 L154.45529,192.104815 L256,192.104815 L256,192.104815 L224.303963,160.576482 L224.303963,160.576482 Z"
+            fill="#fff"
+          >
+            {" "}
+          </path>{" "}
+        </g>{" "}
+      </g>
+    </svg>
+  );
+  const mongo = (
+    <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" fill="#000000">
+      <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
+      <g
+        id="SVGRepo_tracerCarrier"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      ></g>
+      <g id="SVGRepo_iconCarrier">
+        <defs>
+          <linearGradient
+            id="a"
+            x1="-645.732"
+            y1="839.188"
+            x2="-654.59"
+            y2="839.25"
+            gradientTransform="matrix(-0.977, -0.323, -0.29, 0.877, -375.944, -928.287)"
+            gradientUnits="userSpaceOnUse"
+          >
+            <stop offset="0.231" stopColor="#999875"></stop>
+            <stop offset="0.563" stopColor="#9b9977"></stop>
+            <stop offset="0.683" stopColor="#a09f7e"></stop>
+            <stop offset="0.768" stopColor="#a9a889"></stop>
+            <stop offset="0.837" stopColor="#b7b69a"></stop>
+            <stop offset="0.896" stopColor="#c9c7b0"></stop>
+            <stop offset="0.948" stopColor="#deddcb"></stop>
+            <stop offset="0.994" stopColor="#f8f6eb"></stop>
+            <stop offset="1" stopColor="#fbf9ef"></stop>
+          </linearGradient>
+          <linearGradient
+            id="b"
+            x1="-644.287"
+            y1="823.405"
+            x2="-657.028"
+            y2="845.476"
+            gradientTransform="matrix(-0.977, -0.323, -0.29, 0.877, -375.944, -928.287)"
+            gradientUnits="userSpaceOnUse"
+          >
+            <stop offset="0" stopColor="#48a547"></stop>
+            <stop offset="1" stopColor="#3f9143"></stop>
+          </linearGradient>
+          <linearGradient
+            id="c"
+            x1="-643.386"
+            y1="839.485"
+            x2="-652.418"
+            y2="833.417"
+            gradientTransform="matrix(-0.977, -0.323, -0.29, 0.877, -375.944, -928.287)"
+            gradientUnits="userSpaceOnUse"
+          >
+            <stop offset="0" stopColor="#41a247"></stop>
+            <stop offset="0.352" stopColor="#4ba74b"></stop>
+            <stop offset="0.956" stopColor="#67b554"></stop>
+            <stop offset="1" stopColor="#69b655"></stop>
+          </linearGradient>
+        </defs>
+
+        <path
+          d="M16.62,30l-.751-.249s.1-3.8-1.275-4.067c-.9-1.048.133-44.741,3.423-.149a2.712,2.712,0,0,0-1.333,1.523A14.1,14.1,0,0,0,16.62,30Z"
+          style={{ fill: "url(#a)" }}
+        ></path>
+        <path
+          d="M17.026,26.329a13.223,13.223,0,0,0,5-13.225C20.556,6.619,17.075,4.487,16.7,3.673a9.792,9.792,0,0,1-.825-1.6l.277,18.069S15.578,25.664,17.026,26.329Z"
+          style={{ fill: "url(#b)" }}
+        ></path>
+        <path
+          d="M15.487,26.569S9.366,22.4,9.72,15.025A15.54,15.54,0,0,1,15.239,3.377,1.725,1.725,0,0,0,15.846,2c.381.82.319,12.243.359,13.579C16.36,20.776,15.916,25.588,15.487,26.569Z"
+          style={{ fill: "url(#c)" }}
+        ></path>
+      </g>
+    </svg>
+  );
   const css = (
     <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
       <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
@@ -367,6 +471,70 @@ const Proyect = () => {
     </svg>
   );
 
+  const google = (
+    <svg
+      viewBox="-0.5 0 48 48"
+      version="1.1"
+      xmlns="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      fill="#000000"
+    >
+      <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
+      <g
+        id="SVGRepo_tracerCarrier"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      ></g>
+      <g id="SVGRepo_iconCarrier">
+        {" "}
+        <title>Google-color</title> <desc>Created with Sketch.</desc>{" "}
+        <defs> </defs>{" "}
+        <g
+          id="Icons"
+          stroke="none"
+          strokeWidth="1"
+          fill="none"
+          fillRule="evenodd"
+        >
+          {" "}
+          <g id="Color-" transform="translate(-401.000000, -860.000000)">
+            {" "}
+            <g id="Google" transform="translate(401.000000, 860.000000)">
+              {" "}
+              <path
+                d="M9.82727273,24 C9.82727273,22.4757333 10.0804318,21.0144 10.5322727,19.6437333 L2.62345455,13.6042667 C1.08206818,16.7338667 0.213636364,20.2602667 0.213636364,24 C0.213636364,27.7365333 1.081,31.2608 2.62025,34.3882667 L10.5247955,28.3370667 C10.0772273,26.9728 9.82727273,25.5168 9.82727273,24"
+                id="Fill-1"
+                fill="#FBBC05"
+              >
+                {" "}
+              </path>{" "}
+              <path
+                d="M23.7136364,10.1333333 C27.025,10.1333333 30.0159091,11.3066667 32.3659091,13.2266667 L39.2022727,6.4 C35.0363636,2.77333333 29.6954545,0.533333333 23.7136364,0.533333333 C14.4268636,0.533333333 6.44540909,5.84426667 2.62345455,13.6042667 L10.5322727,19.6437333 C12.3545909,14.112 17.5491591,10.1333333 23.7136364,10.1333333"
+                id="Fill-2"
+                fill="#EB4335"
+              >
+                {" "}
+              </path>{" "}
+              <path
+                d="M23.7136364,37.8666667 C17.5491591,37.8666667 12.3545909,33.888 10.5322727,28.3562667 L2.62345455,34.3946667 C6.44540909,42.1557333 14.4268636,47.4666667 23.7136364,47.4666667 C29.4455,47.4666667 34.9177955,45.4314667 39.0249545,41.6181333 L31.5177727,35.8144 C29.3995682,37.1488 26.7323182,37.8666667 23.7136364,37.8666667"
+                id="Fill-3"
+                fill="#34A853"
+              >
+                {" "}
+              </path>{" "}
+              <path
+                d="M46.1454545,24 C46.1454545,22.6133333 45.9318182,21.12 45.6113636,19.7333333 L23.7136364,19.7333333 L23.7136364,28.8 L36.3181818,28.8 C35.6879545,31.8912 33.9724545,34.2677333 31.5177727,35.8144 L39.0249545,41.6181333 C43.3393409,37.6138667 46.1454545,31.6490667 46.1454545,24"
+                id="Fill-4"
+                fill="#4285F4"
+              >
+                {" "}
+              </path>{" "}
+            </g>{" "}
+          </g>{" "}
+        </g>{" "}
+      </g>
+    </svg>
+  );
   const three = (
     <svg
       fill="#fff"
@@ -415,6 +583,23 @@ const Proyect = () => {
             type="Ecommerce"
             subtitle="Productos Variados"
             teclogies={[next, netIcon, paypal, c]}
+          />
+          <Card2
+            par={true}
+            title="Futbol 5 Pa (2024)"
+            desc="Explora y Unite a los partidos de futbol 5 mas cercanos a tu ubicación. Conoce los detalles de cada partido, como la cantidad de jugadores, la ubicación y mucho mas."
+            desc2="scubre la narrativa única de estos clubes, desde sus humildes comienzos hasta los momentos históricos que han forjado su identidad. Explora su impresionante colección de trofeos, que incluye campeonatos de liga, copas nacionales e internacionales. ¿Crees que conoces todo sobre estos equipos? Pon a prueba tus conocimientos con nuestro emocionante quiz. Nuestro backend, desarrollado en PHP"
+            url="https://fvhinchas.000webhostapp.com/"
+            imageWindow={imagef5}
+            imagePhone={false}
+            link="https://futbol5rosario.vercel.app/"
+            estado="Finalizado"
+            logo={logof5}
+            color1="#185c13"
+            color2="#242424"
+            type="Plataforma de Fútbol 5"
+            subtitle="Encontra gente para jugar"
+            teclogies={[next, socket, google, mongo]}
           />
           <Card2
             par={true}

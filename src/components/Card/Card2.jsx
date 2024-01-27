@@ -32,6 +32,7 @@ const Card2 = ({
   return (
     <motion.a
       href={link}
+      style={{ textDecoration: "none" }}
       className={isHovered ? style.index : null}
       transition={{ duration: 1.4 }}
       initial={{ opacity: 0, y: "200px" }}
@@ -170,30 +171,74 @@ const Card2 = ({
         </AnimatePresence>
         <AnimatePresence>
           {isHovered && imagePhone && (
-            <motion.img
-              src={imagePhone}
-              loading="lazy"
-              initial={{ opacity: 0, x: "200px", rotateZ: "100deg" }}
-              animate={{ opacity: 1, x: "0px", rotateZ: "0deg" }}
-              transition={{ duration: 0.4 }}
-              exit={{ opacity: 0, x: "200px", rotateZ: "100deg" }}
-              className={style.imgHover}
-              alt=""
-            />
+            <>
+              <motion.img
+                src={logo}
+                loading="lazy"
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ duration: 0.8 }}
+                exit={{ opacity: 0 }}
+                className={style.imgfondo}
+                alt=""
+              />
+              <motion.img
+                src={logo}
+                loading="lazy"
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ duration: 0.8 }}
+                exit={{ opacity: 0 }}
+                className={style.imgfondo2}
+                alt=""
+              />
+              <motion.img
+                src={imagePhone}
+                loading="lazy"
+                initial={{ opacity: 0, x: "200px", rotateZ: "100deg" }}
+                animate={{ opacity: 1, x: "0px", rotateZ: "0deg" }}
+                transition={{ duration: 0.4 }}
+                exit={{ opacity: 0, x: "200px", rotateZ: "100deg" }}
+                className={style.imgHover}
+                alt=""
+              />
+            </>
           )}
         </AnimatePresence>
         <AnimatePresence>
           {isHovered && imageWindow && (
-            <motion.img
-              loading="lazy"
-              initial={{ opacity: 0, x: "200px" }}
-              animate={{ opacity: 1, x: "-100px" }}
-              transition={{ duration: 0.4 }}
-              exit={{ opacity: 0, x: "200px" }}
-              className={style.imgHoverWindow}
-              src={imageWindow}
-              alt=""
-            />
+            <>
+              <motion.img
+                src={logo}
+                loading="lazy"
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ duration: 0.8 }}
+                exit={{ opacity: 0 }}
+                className={style.imgfondo}
+                alt=""
+              />
+              <motion.img
+                src={logo}
+                loading="lazy"
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ duration: 0.8 }}
+                exit={{ opacity: 0 }}
+                className={style.imgfondo2}
+                alt=""
+              />
+              <motion.img
+                loading="lazy"
+                initial={{ opacity: 0, x: "200px" }}
+                animate={{ opacity: 1, x: "-100px" }}
+                transition={{ duration: 0.4 }}
+                exit={{ opacity: 0, x: "200px" }}
+                className={style.imgHoverWindow}
+                src={imageWindow}
+                alt=""
+              />
+            </>
           )}{" "}
         </AnimatePresence>
 
